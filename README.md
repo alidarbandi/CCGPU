@@ -1,2 +1,2 @@
-# Parallel processing with mutl GPUs
+# Parallel processing with multi GPUs
 Multi GPUs for parallel processing Compute Canada clusters 
