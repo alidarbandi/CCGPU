@@ -20,5 +20,9 @@ graham.computecanada.ca       160	                   	2 x NVIDIA P100 Pascal (12
 6. To create a virtual enviorment : virtualenv --no-download ENV
 7. To activate you enviornment:   source ENV/bin/activate
 8. You can install any package necessary for your code:  pip install --no-index torch
-9. modify the shell script to run your python code. Edit the number of GPUs, CPUs, memory and time
-10. submit job withh: sbatch submit.sh
+9. pip install opencv-python
+10. pip install --no-index torchvision
+11. pip install albumentations
+12. pip install tqdm
+13. modify the shell script to run your python code. Edit the number of GPUs, CPUs, memory and time
+14. submit job withh: sbatch submit.sh
